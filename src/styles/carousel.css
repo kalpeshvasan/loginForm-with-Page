@@ -1,0 +1,129 @@
+.carousel-main .carousel-slider .legend {
+    left: 5%;
+    width: auto;
+    background: none;
+    top: 20%;
+    font-size: 4rem;
+    opacity: 1;
+    color: #000;
+    margin-left: 0;
+}
+
+.carousel-main .carousel-slider .legend p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.carousel.carousel-slider .control-arrow {
+    display: none;
+}
+
+.carousel-btn {
+    border: 1px solid #000;
+    padding: 0.5rem 2rem;
+    margin-top: 0rem;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.carousel .carousel-status {
+    display: none;
+}
+
+.carousel-btn:hover {
+    color: #000;
+}
+
+.carousel .thumbs-wrapper {
+    display: none;
+}
+
+.slider-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+
+.slider-content h2 {
+    font-weight: 400;
+    font-size: 44px;
+}
+
+.slider-content p {
+    font-size: 24px;
+}
+
+.slider-content button {
+    background-color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    width: auto;
+    text-decoration: none;
+    white-space: nowrap;
+    height: 43px;
+    min-height: 0px;
+    min-width: 0px;
+    text-align: right;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 12px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    padding: 0px 50px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-main .carousel-slider .legend {
+        left: 0;
+        width: auto;
+        background: none;
+        top: 1rem;
+        font-size: 1rem;
+        opacity: 1;
+        color: #000;
+        margin-left: 0;
+    }
+
+    .carousel-btn {
+        border: 1px solid #000;
+        padding: 0.5rem 1rem;
+        margin-top: 2rem;
+        color: #000;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .carousel-main .carousel-slider .legend p {
+        display: none;
+    }
+}
